@@ -1,0 +1,15 @@
+
+
+input[type="tel"]::-webkit-inner-spin-button,
+input[type="tel"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    
+}
+
+
+
+#contact-list {
+margin-top: 50px;
+
+}
+

@@ -1,6 +1,6 @@
 
 
-// Hämtar input och skapar en rad i listan med namn/nummer
+// Hämtar input och skapar en rad i listan med namn/nummer //
 
 function addContact() {
     let name = document.getElementById("nameInput").value;
@@ -25,9 +25,8 @@ function addContact() {
         inputTele.value = tele;
         inputTele.type = "number";
         inputTele.disabled = true;
+        inputTele.maxLength = "14";
         inputTele.style.marginLeft = "10px";
-
-
 
 
         let editContact = createButton("Ändra", function() {
@@ -89,4 +88,17 @@ function addContact() {
 
 
 
-// ------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------//
+
+
+
+//Raderar alla kontakter //
+
+function delAll() {
+
+        let contactsList = document.getElementById("contacts");
+        contactsList.innerHTML = "";
+    
+}
+
+// ------------------------------------------------------------------------------//
