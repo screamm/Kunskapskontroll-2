@@ -18,7 +18,7 @@ function addContact() {
         inputName.value = name;
         inputName.type = "text";
         inputName.disabled = true;
-        
+               
 
 
         let inputTele = document.createElement("input");
@@ -42,8 +42,10 @@ function addContact() {
             inputTele.disabled = true;
             editContact.innerText = "Ändra";
         }
+
         });
 
+        
         let delContact = document.createElement("button");
         delContact.innerText = "Radera";
         delContact.type = "button";
@@ -63,6 +65,7 @@ function addContact() {
         
         document.getElementById("nameInput").value = "";
         document.getElementById("teleInput").value = "";
+        
         let emptyFields = document.getElementById("emptyFields");
         emptyFields.innerText = "";
 
