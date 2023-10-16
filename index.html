@@ -11,24 +11,19 @@
     <h1>Telefonboken</h1>
 
     <div id="kontaktformular">
-        <input type="text" id="namn" placeholder="Namn">
-        <input type="text" id="telefon" placeholder="Telefonnummer">
+        <input type="text" id="nameInput" placeholder="Namn">
+        <input type="text" id="teleInput" placeholder="Telefonnummer">
         <button onclick="addContact()">Spara</button>
-        <button onclick="delContact()">Radera hela listan</button>
+        <button onclick="delAll()">Radera hela listan</button>
+        <p id="emptyFields"></p>
     </div>
 
     <div id="contact-list">
         <h2>Kontaktlista</h2>
-        <ul id="contacts"></ul>
+        <ul id="contacts">
 
-    </div>
 
-    <div>
-        
-        <input type="text" id="edit-name" disabled>
-        <input type="text" id="edit-phone" disabled>
-        <button onclick="editContact()">Ändra</button>
-        <button onclick="editContact()">Radera</button>
+        </ul>
     </div>
 
 
