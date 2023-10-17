@@ -32,10 +32,10 @@ function addContact() {
         let editContact = createButton("Ändra", function() {
         
         if (inputName.disabled == true) {
-        editContact.innerText = "Ändra";
                 inputName.disabled = false;
                 inputTele.disabled = false;
                 editContact.innerText = "Spara";
+                
         
         } else {
             inputName.disabled = true;
