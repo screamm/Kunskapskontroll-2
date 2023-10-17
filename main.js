@@ -19,14 +19,11 @@ function addContact() {
         inputName.type = "text";
         inputName.disabled = true;
         inputName.className = "nameInput2";
-               
-
 
         let inputTele = document.createElement("input");
         inputTele.value = tele;
         inputTele.type = "number";
         inputTele.disabled = true;
-        inputTele.maxLength = "14";
         inputTele.style.marginLeft = "10px";
         inputTele.className = "teleInput2";
 
@@ -40,6 +37,7 @@ function addContact() {
                 editContact.innerText = "Spara";
                 inputTele.className = "teleInput3";
                 inputName.className = "nameInput3";
+
                 
         
               } else {
@@ -48,6 +46,7 @@ function addContact() {
                  editContact.innerText = "Ändra";
                  inputTele.className = "teleInput2";
                  inputName.className = "nameInput2";
+
               }
         }
         else {
