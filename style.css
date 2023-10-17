@@ -77,7 +77,13 @@ button {
       
 
 
-/* Nedan H1 styling från https://codepen.io/bennettfeely/pen/AgbQRQ */
+
+
+
+
+
+
+/* Nedan H1 H2 styling från https://codepen.io/bennettfeely/pen/AgbQRQ */
 
 @import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
 
@@ -122,4 +128,60 @@ h1 span:nth-child(12){ animation-delay:.55s; }
 h1 span:nth-child(13){ animation-delay:.6s; }
 h1 span:nth-child(14){ animation-delay:.65s; }
 
-/* --------------------------------------------------------------------------------*/
+
+
+h2 {
+    font-size:5em;
+    font:bold 3vw 'Signika', sans-serif;
+    user-select:none;
+   }
+   
+   
+   span:nth-child(4n) { color:hsl(50, 75%, 55%); text-shadow:1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
+   span:nth-child(4n-1) { color:hsl(135, 35%, 55%); text-shadow:1px 1px hsl(135, 35%, 45%), 2px 2px hsl(135, 35%, 45%), 3px 3px hsl(135, 35%, 45%), 4px 4px hsl(135, 35%, 45%); }
+   span:nth-child(4n-2) { color:hsl(155, 35%, 60%); text-shadow:1px 1px hsl(155, 25%, 50%), 2px 2px hsl(155, 25%, 50%), 3px 3px hsl(155, 25%, 50%), 4px 4px hsl(140, 25%, 50%); }
+   span:nth-child(4n-3) { color:hsl(30, 65%, 60%); text-shadow:1px 1px hsl(30, 45%, 50%), 2px 2px hsl(30, 45%, 50%), 3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%); }
+   
+   h2 span:nth-child(2){ animation-delay:.05s; }
+   h2 span:nth-child(3){ animation-delay:.1s; }
+   h2 span:nth-child(4){ animation-delay:.15s; }
+   h2 span:nth-child(5){ animation-delay:.2s; }
+   h2 span:nth-child(6){ animation-delay:.25s; }
+   h2 span:nth-child(7){ animation-delay:.3s; }
+   h2 span:nth-child(8){ animation-delay:.35s; }
+   h2 span:nth-child(9){ animation-delay:.4s; }
+   h2 span:nth-child(10){ animation-delay:.45s; }
+   h2 span:nth-child(11){ animation-delay:.5s; }
+   h2 span:nth-child(12){ animation-delay:.55s; }
+   h2 span:nth-child(13){ animation-delay:.6s; }
+   h2 span:nth-child(14){ animation-delay:.65s; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
