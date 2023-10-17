@@ -33,8 +33,8 @@ function addContact() {
 
 
         let editContact = createButton("Ändra", function() {
-
-        if (inputName.disabled == true) {
+            if (inputName.value && inputTele.value) {
+              if (inputName.disabled == true) {
                 inputName.disabled = false;
                 inputTele.disabled = false;
                 editContact.innerText = "Spara";
@@ -42,17 +42,26 @@ function addContact() {
                 inputName.className = "nameInput3";
                 
         
-        } else {
-            inputName.disabled = true;
-            inputTele.disabled = true;
-            editContact.innerText = "Ändra";
-            inputTele.className = "teleInput2";
-            inputName.className = "nameInput2";
-
-
+              } else {
+                 inputName.disabled = true;
+                 inputTele.disabled = true;
+                 editContact.innerText = "Ändra";
+                 inputTele.className = "teleInput2";
+                 inputName.className = "nameInput2";
+              }
         }
+        else {
+            let emptyFields = document.getElementById("emptyFields");
+            emptyFields.innerText = "----------- Fyll i alla fält -----------";
+            emptyFields.style.color = "hsl(30, 45%, 50%)";
+            emptyFields.style.fontSize = "20px";
+            emptyFields.style.fontWeight = "bold";
+            emptyFields.style.marginTop = "15px";
+            
+        }
+        
 
-        });
+    });
 
         
         let delContact = document.createElement("button");
@@ -82,8 +91,11 @@ function addContact() {
     } 
         else {
             let emptyFields = document.getElementById("emptyFields");
-            emptyFields.innerText = "Fyll i alla fält";
-            
+            emptyFields.innerText = "----------- Fyll i alla fält -----------";
+            emptyFields.style.color = "hsl(30, 45%, 50%)";
+            emptyFields.style.fontSize = "20px";
+            emptyFields.style.fontWeight = "bold";
+            emptyFields.style.marginTop = "15px";
         }
 
     }
