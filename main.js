@@ -18,6 +18,7 @@ function addContact() {
         inputName.value = name;
         inputName.type = "text";
         inputName.disabled = true;
+        inputName.className = "nameInput2";
                
 
 
@@ -27,20 +28,28 @@ function addContact() {
         inputTele.disabled = true;
         inputTele.maxLength = "14";
         inputTele.style.marginLeft = "10px";
+        inputTele.className = "teleInput2";
+
 
 
         let editContact = createButton("Ändra", function() {
-        
+
         if (inputName.disabled == true) {
                 inputName.disabled = false;
                 inputTele.disabled = false;
                 editContact.innerText = "Spara";
+                inputTele.className = "teleInput3";
+                inputName.className = "nameInput3";
                 
         
         } else {
             inputName.disabled = true;
             inputTele.disabled = true;
             editContact.innerText = "Ändra";
+            inputTele.className = "teleInput2";
+            inputName.className = "nameInput2";
+
+
         }
 
         });
@@ -48,6 +57,7 @@ function addContact() {
         
         let delContact = document.createElement("button");
         delContact.innerText = "Radera";
+        delContact.className = "delButton";
         delContact.type = "button";
         delContact.onclick = function() {
             listItem.remove();
