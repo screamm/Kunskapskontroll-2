@@ -39,8 +39,8 @@ input[type="number"] {
         border: 3px solid rgb(161, 211, 97);
         border-radius: 7px;
         font-size: large;
+    }
         
-      }
 
       .nameInput2,
       .teleInput2 {
