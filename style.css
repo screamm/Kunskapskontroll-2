@@ -10,7 +10,7 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
     -moz-appearance: textfield;
 }
-
+/* ---------------------------------- */
 
 #bodycontainer {
     display: flex;
@@ -24,7 +24,6 @@ input[type="number"] {
 .title {
     margin: 20px;
 }
-
 
 
 #contact-list {
@@ -78,12 +77,6 @@ button {
     list-style: none;
 }
       
-
-
-
-
-
-
 
 
 /* Nedan H1 H2 styling från https://codepen.io/bennettfeely/pen/AgbQRQ */
@@ -160,33 +153,4 @@ h2 {
    h2 span:nth-child(12){ animation-delay:.55s; }
    h2 span:nth-child(13){ animation-delay:.6s; }
    h2 span:nth-child(14){ animation-delay:.65s; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

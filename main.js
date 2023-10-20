@@ -88,7 +88,7 @@ function delAll() {
 
 // ------------------------------------------------------------------------------//
 
-// EGEN Funktion för validering av inputfält //
+// Funktion för validering av inputfält //
 
 function validateInput(name, tele) {
     return name && tele;
