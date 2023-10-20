@@ -8,29 +8,9 @@ function addContact() {
     
 
 
-
-    // function addContact() {
-    //     let name = document.getElementById("nameInput").value;
-    //     let tele = document.getElementById("teleInput").value;
-    
-    //     if (validateInput(name, tele)) {
-    //         createContact(name, tele);
-    //         clearFields();
-    //     } else {
-    //         showErrorMessage("Fyll i alla fält");
-    //     }
-    // }
-
-
     // function validateInput(name, tele) {
     //     return name && tele;
     // }
-
-
-
-
-
-
 
 
     if (name && tele) {
@@ -62,8 +42,6 @@ function addContact() {
                 editContact.innerText = "Spara";
                 inputTele.className = "teleInput3";
                 inputName.className = "nameInput3";
-                // let emptyFields = document.getElementById("emptyFields");
-                // emptyFields.innerText = "";
 
                 
         
@@ -154,3 +132,8 @@ function delAll() {
 }
 
 // ------------------------------------------------------------------------------//
+
+
+
+
+// EGEN Funktion för validering av inputfält //
